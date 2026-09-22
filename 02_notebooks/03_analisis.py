@@ -9,6 +9,10 @@ sal = pd.read_csv('01_datos/procesados/salarios_limpio.csv', parse_dates=['fecha
 # how = 'inner' mantiene solo las fechas que existen en AMBAS tablas.
 df = pd.merge(ipc,sal, on='fecha', how='inner')
 
+df = df[(df['fecha'] >= '2017-01-01') & (df['fecha'] <= '2024-12-31')]
+df = df.dropna()
+df = df.reset_index(drop=True)
+
 # Verificar el rango de fechas con ambas tablas:
 # print(f'Rango de fechas: {df.fecha.min} -> {df.fecha.max}')
 # print(f'Total de meses: {len(df)}')
@@ -32,7 +36,10 @@ df['ipc_variacion_anual'] =  (
 df.to_csv('01_datos/procesados/analisis_completo.csv', index=False)
 
 # Inflación acumulada total del período
-ipc_total = df['ipc_acumulado'].iloc[-1] - 100
+ipc_total = (
+    df['ipc_acumulado'].iloc[-1] /
+    df['ipc_acumulado'].iloc[0] - 1
+) * 100
 print(f'Inflación acumulada: {ipc_total:.1f}%')
 
 # Mes con mayor inflación mensual
