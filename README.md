@@ -2,8 +2,10 @@
 
 ### La carrera de los precios: el impacto de la inflación en el salario real
 
-Índice de Precios al Consumidor - Índice de Salarios 
+Índice de Precios al Consumidor - Índice de Salarios
+
 **Fuente:** INDEC · Datos públicos de Argentina · Secretaría de Trabajo
+
 **Etapas completadas:** Python (Pandas/Matplotlib) · Tableau 
 
 \---
@@ -148,7 +150,7 @@ https://public.tableau.com/views/InflacinySalariosenArgentinaMaycoCorrea/Present
 
 ## Herramientas utilizadas
 
-!\[Excel](https://img.shields.io/badge/Microsoft\_Excel-217346?style=flat\&logo=microsoft-excel\&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft\_Excel-217346?style=flat\&logo=microsoft-excel\&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
