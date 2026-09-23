@@ -8,8 +8,6 @@
 
 **Etapas completadas:** Python (Pandas/Matplotlib) · Tableau 
 
-\---
-
 ## Contexto y Definiciones
 
 Este proyecto analiza la dinámica entre la inflación (Índice de Precios al Consumidor) y los salarios en Argentina durante un período de alta volatilidad macroeconómica (2017-2024).
