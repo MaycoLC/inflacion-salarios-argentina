@@ -124,7 +124,7 @@ inflacion-salarios-argentina/
 
 Los gráficos pueden ser generados mediante los scripts de Python mencionados o visualizados mediante Tableau Public en mi perfil.
 
-### Etapa 3 · Tableau
+### Etapa 2 · Tableau
 
 Dashboard interactivo conectado al CSV generado por el script 03. Incluye todas las visualizaciones mencionadas con la posibilidad de interactuar con las mismas. Se encuentra publicado en Tableau Public en el siguiente link:
 
