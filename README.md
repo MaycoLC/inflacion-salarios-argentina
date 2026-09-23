@@ -16,16 +16,12 @@ Este proyecto analiza la dinámica entre la inflación (Índice de Precios al Co
 
 * **Salario Real:** Es el poder de compra del salario. Se calcula ajustando el salario nominal por la inflación del mismo período. Si la inflación supera al aumento salarial, el salario real cae.
 
-\---
-
 ## Preguntas que responde este análisis 
 
 * ¿En qué momento se produjo el quiebre donde los salarios comenzaron a perder sistemáticamente contra la inflación?
 * ¿Qué sector productivo (público vs. privado registrado) logró defender mejor su poder de compra?
 * ¿Cuáles fueron los picos históricos de inflación interanual y mensual en el período analizado?
 * ¿En qué período intercensal fue más acelerado el proceso de envejecimiento?
-
-\---
 
 ## Hallazgos principales
 
@@ -34,8 +30,6 @@ Este proyecto analiza la dinámica entre la inflación (Índice de Precios al Co
 * **Picos inflacionarios históricos:** La variación interanual máxima del IPC alcanzó su pico más drástico en **2023 con un 211,2%**, seguido de cerca por las métricas obtenidas a principios de 2024 (117,4%).
 * **Aceleración mensual:** El desglose trimestral/mensual evidencia que a finales de 2023 y principios de 2024 concentraron las variaciones mensuales más extremas, superando los 20 puntos porcentuales en un solo período.
 * **Brecha exponencial:** La curva acumulada del IPC muestra un comportamiento de crecimiento exponencial a partir de 2022, dejando al índice salarial general rezagado y generando una zona de "pérdida adquisitiva" masiva. 
-
-\---
 
 ## Datos utilizados | 1. IPC - Índice de Precios al Consumidor 
 
@@ -58,8 +52,6 @@ Este proyecto analiza la dinámica entre la inflación (Índice de Precios al Co
 |Frecuencia|Mensual|
 |Variable clave|Variación mensual e índice base 100 = diciembre 2016|
 |Cobertura|Nacional, GBA, Pampeana, NOA, NEA, Cuyo, Patagonia|
-
-\---
 
 ## Etapa 1 · Python
 
@@ -85,8 +77,6 @@ Uso de `matplotlib` para establecer la lógica visual (uso de `fill_between` par
 |`04_notebooks\04_g2_visualizaciones.py`|Script de inflación acumulada vs. salarios.|
 |`04_notebooks\04_g3_visualizaciones.py`|Script de salario real por sector.|
 |`04_notebooks\04_g3_visualizaciones.py`|Script de inflación anual comparada.|
-
-\---
 
 ## Estructura del repositorio
 
@@ -123,8 +113,6 @@ inflacion-salarios-argentina/
 └── README.md
 ```
 
-\---
-
 ### Visualizaciones
 
 |Gráfico|Tipo|Pregunta que responde|
@@ -136,15 +124,11 @@ inflacion-salarios-argentina/
 
 Los gráficos pueden ser generados mediante los scripts de Python mencionados o visualizados mediante Tableau Public en mi perfil.
 
-\---
-
 ### Etapa 3 · Tableau
 
 Dashboard interactivo conectado al CSV generado por el script 03. Incluye todas las visualizaciones mencionadas con la posibilidad de interactuar con las mismas. Se encuentra publicado en Tableau Public en el siguiente link:
 
 https://public.tableau.com/views/InflacinySalariosenArgentinaMaycoCorrea/Presentacin?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-
-\---
 
 ## Herramientas utilizadas
 
@@ -153,7 +137,6 @@ https://public.tableau.com/views/InflacinySalariosenArgentinaMaycoCorrea/Present
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 
-\---
-
 *Proyecto de portafolio de análisis de datos · Etapas 1 y 2 completadas*
+## Autoria: Mayco Correa
 
