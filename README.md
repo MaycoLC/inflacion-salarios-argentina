@@ -70,13 +70,13 @@ Uso de `matplotlib` para establecer la lógica visual (uso de `fill_between` par
 
 |Archivo|Descripción|
 |-|-|
-|`04_notebooks\01_limpiar_ipc.py`|Script de limpieza del IPC.|
-|`04_notebooks\02_limpiar_ind_salario.py`|Script de limpieza del Índice de Salarios.|
-|`04_notebooks\03_analisis.py`|Script de análisis con pandas de ambos .csv procesados.|
-|`04_notebooks\04_g1_visualizaciones.py`|Script de inflación mensual 2017 - 2024.|
-|`04_notebooks\04_g2_visualizaciones.py`|Script de inflación acumulada vs. salarios.|
-|`04_notebooks\04_g3_visualizaciones.py`|Script de salario real por sector.|
-|`04_notebooks\04_g3_visualizaciones.py`|Script de inflación anual comparada.|
+|`02_notebooks\01_limpiar_ipc.py`|Script de limpieza del IPC.|
+|`02_notebooks\02_limpiar_ind_salario.py`|Script de limpieza del Índice de Salarios.|
+|`02_notebooks\03_analisis.py`|Script de análisis con pandas de ambos .csv procesados.|
+|`02_notebooks\04_g1_visualizaciones.py`|Script de inflación mensual 2017 - 2024.|
+|`02_notebooks\04_g2_visualizaciones.py`|Script de inflación acumulada vs. salarios.|
+|`02_notebooks\04_g3_visualizaciones.py`|Script de salario real por sector.|
+|`02_notebooks\04_g3_visualizaciones.py`|Script de inflación anual comparada.|
 
 ## Estructura del repositorio
 
